@@ -1,3 +1,5 @@
+Simple Status Dashboard Resource
+
 <!-- wp:paragraph -->
 <p>Below is a simple status dashboard for your SharePoint Online form:</p>
 <!-- /wp:paragraph -->
