@@ -41,5 +41,5 @@ Easy Flexbox Reformatting
 <!-- /wp:image -->
 
 <!-- wp:paragraph -->
-<p>Check out the JSON here: <a href="https://github.com/scareycs/SPOCreations/blob/main/AssetList.json">https://github.com/scareycs/SPOCreations/blob/main/AssetList.json</a></p>
+<p>Check out my blog here: <a href="www.sharingsharepoint.com">www.sharingsharepoint.com</a></p>
 <!-- /wp:paragraph -->
