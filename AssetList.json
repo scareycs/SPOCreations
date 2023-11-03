@@ -1,0 +1,331 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "_comment_": "MAIN DIV",
+    "style": {
+      "display": "flex",
+      "flex-direction": "column",
+      "flex-wrap": "wrap",
+      "justify-content": "space-between",
+      "align-items": "stretch",
+      "margin-bottom": "16px",
+      "margin-top": "16px",
+      "max-width": "100%",
+      "border-radius": "8px",
+      "box-shadow": "2px 2px 7px 2px darkgrey",
+      "width": "auto"
+    },
+    "attributes": {},
+    "children": [
+      {
+        "elmType": "div",
+        "_comment_": "------------ROW ONE------------------",
+        "style": {
+          "flex-direction": "row",
+          "display": "flex",
+          "justify-content": "space-between",
+          "background-color": "#0f2938",
+          "border-radius": "8px 8px 0px 0px",
+          "color": "white",
+          "padding": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "_comment_": "DIV ONE - Asset Type",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV SEVEN - Asset Type - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "ASSET TYPE:"
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV SEVEN - Asset Type",
+                "style": {
+                  "display": "flex"
+                },
+                "txtContent": "[$AssetType]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV FIVE - Manufacturer",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row",
+              "align-items": "center"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV FIVE - Manufacturer - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "MANUFACTURER: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV FIVE - Manufacturer",
+                "style": {
+                  "display": "flex"
+                },
+                "txtContent": "[$Manufacturer]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV SIX - Model",
+            "style": {
+              "align-items": "center",
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV SIX - Model - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "MODEL: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV SIX - Model",
+                "style": {
+                  "display": "flex"
+                },
+                "txtContent": "[$Model]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV EIGHT - Serial Number",
+            "style": {
+              "align-items": "center",
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV EIGHT - Serial Number - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "SERIAL NUMBER: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV EIGHT - Serial Number",
+                "style": {
+                  "display": "flex"
+                },
+                "txtContent": "[$SerialNumber]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "_comment_": "----------------ROW TWO--------------------",
+        "style": {
+          "flex-direction": "row",
+          "display": "flex",
+          "justify-content": "space-between",
+          "padding": "10px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "_comment_": "DIV ONE - ASSET TAG",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV ONE- ASSET TAG - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "align-items": "center",
+                  "margin": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "ASSET TAG: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV ONE - ASSET TAG",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "txtContent": "[$AssetTag]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV TWO - CLASSIFICATION",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV TWO - CLASSIFICATION - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "align-items": "center",
+                  "margin": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "CLASSIFICATION: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV TWO - CLASSIFICATION",
+                "style": {},
+                "columnFormatterReference": "[$Classification]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV THREE - Validation Date",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV THREE - Validation Date - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "align-items": "center",
+                  "margin": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "VALIDATION DATE: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV THREE - Validation Date",
+                "style": {},
+                "columnFormatterReference": "[$Validated]"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "_comment_": "DIV FOUR - STATUS",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV FOUR - STATUS - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "align-items": "center",
+                  "margin": "4px",
+                  "display": "flex"
+                },
+                "txtContent": "STATUS: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV FOUR - STATUS",
+                "style": {
+                  "display": "flex"
+                },
+                "columnFormatterReference": "[$status]"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "_comment_": "----------------ROW THREE--------------------",
+        "style": {
+          "flex-direction": "row",
+          "display": "flex",
+          "justify-content": "space-between",
+          "padding": "10px",
+          "background-color": "#d3e0e7",
+          "border-radius": "0px 0px 8px 8px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "_comment_": "DIV ONE - NOTES",
+            "style": {
+              "display": "flex",
+              "flex-direction": "row"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "_comment_": "DIV ONE- NOTES - HEADER",
+                "style": {
+                  "font-weight": "bold",
+                  "padding-right": "4px",
+                  "align-items": "center",
+                  "margin": "4px",
+                  "display": "flex",
+                  "width": "-webkit-fill-available"
+                },
+                "txtContent": "NOTES: "
+              },
+              {
+                "elmType": "div",
+                "_comment_": "DIV ONE - NOTES",
+                "style": {
+                  "display": "flex",
+                  "align-items": "center"
+                },
+                "txtContent": "[$Notes]"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
